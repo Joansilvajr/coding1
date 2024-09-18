@@ -1,8 +1,16 @@
-console.log("Hello World")
+var prompt = require('prompt-sync')();
 
-const rotulo = "joao"
-console.log(rotulo)
+let nome = prompt("Qual o seu nome?")
+let idade = prompt ('Qual a sua idade?')
 
-rotulo = 12345
-console.log(rotulo)
+console.log(`${idade} anos`)
 
+console.log(`Olá,${nome}! Boas vindas a Faculdade Senac`)
+
+let ajuda = prompt("Como posso te ajudar?")
+
+console.log(`${ajuda}`)
+
+let PáginaDoAluno = prompt("Para acessar a Página do Aluno, você precisa inserir seu login e senha no portal senac22")
+
+console.log(`${PáginaDoAluno}`)
